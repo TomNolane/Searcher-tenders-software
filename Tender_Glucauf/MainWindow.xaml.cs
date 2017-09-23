@@ -103,7 +103,6 @@ namespace Tender_Glucauf
                     }
                 }
             }
-
             return null;
         }
 

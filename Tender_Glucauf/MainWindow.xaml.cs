@@ -91,6 +91,7 @@ namespace Tender_Glucauf
 
                 if (pi != null)
                 {
+                    // Check for DisplayName attribute and set the column header accordingly
                     object[] attributes = pi.GetCustomAttributes(typeof(DisplayNameAttribute), true);
                     for (int i = 0; i < attributes.Length; ++i)
                     {
@@ -102,6 +103,7 @@ namespace Tender_Glucauf
                     }
                 }
             }
+
             return null;
         }
 
